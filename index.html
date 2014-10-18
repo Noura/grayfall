@@ -2,11 +2,36 @@
     <head>
         <title>Grayfall</title>
 
+        <link rel="stylesheet" href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="static/css/grayfall.css">
     </head>
     <body>
-        <h1>Grayfall</h1>
-        <p>And yet, we submit, the Freirean dream could become a reality. The objective of this chapter is both to demonstrate a “proof of existence” that realizing the Freirean vision is possible even within the underprivileged settings that he was targeting and to reflect on some design principles that may be conducive to realizing his vision. This chapter is a reflection on the implementation of Freire- inspired frameworks, its obstacles and leverage points. I particularly focus on the role of technology in such initiatives, as an emancipatory tool for mobilizing change in schools and empowering students. I posit that the rapid penetration of computers into learning environments constitute an unprecedented opportunity to advance and disseminate a Freirean aesthetic (paraphrasing Valente, 1993) in schools. Digital technologies, such as computers, robotics, digital video, and digital photography, could play a central role in this process: they are protean machines (Papert, 1980) that enable diverse and innovative ways of working, expressing, and building. This chameleonesque adaptivity of computational media, I argue, enables the acknowledgement and embracing of epistemological diversity (Abrahamson, Berland, Shapiro, Unterman, & Wilensky, 2006; Turkle, 1991), engendering an environment in which students, finding their own voice, can concretize their ideas and projects with motivation and engagement.</p>
-        <p>&mdash; Blikstein, Travels in Troy with Freire</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Grayfall</h1>
+                    <img src="static/img/RTWONIG.jpg"/>
+                    <p>http://i.imgur.com/RTWONIG.jpg</p>
+                    <img src="static/img/mondrian.png"/>
+                    <br/>
+
+                    <img src="static/img/mirrored_paintbrush.png"/>
+                    <pre>
+void setup() {
+  size(500,500);
+  stroke(0);
+  strokeWeight(10);
+}
+
+void draw() {
+  point(mouseX, mouseY);
+  point(width - mouseX, mouseY);
+  point(mouseX, height - mouseY);
+  point(width - mouseX, height - mouseY);
+}
+                    </pre>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
